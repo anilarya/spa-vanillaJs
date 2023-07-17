@@ -1,0 +1,27 @@
+{
+  "name": "sample-spa",
+  "version": "1.0.0",
+  "description": "Sample Single Page Application in vanillaJS with Webpack",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "SPA",
+    "vanillaJS",
+    "Webpack"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.4.0",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  }
+}
